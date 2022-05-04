@@ -1,0 +1,52 @@
+-I: Adding /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/prep to search path.
+-I: Adding /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/lib to search path.
+-I: Adding /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/parm to search path.
+-I: Adding /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/cmd to search path.
+-f: Source leap.txt.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leap.txt
+----- Source: /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/lib/amino12.lib
+Loading library: /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/lib/aminoct12.lib
+Loading library: /home/jguven/Software/miniconda3/envs/ambertools/dat/leap/lib/aminont12.lib
+Loading PDB file: ./leap.pdb
+Created a new atom named: CH3 within residue: .R<NME 290>
+Created a new atom named: HH31 within residue: .R<NME 290>
+Created a new atom named: HH32 within residue: .R<NME 290>
+Created a new atom named: HH33 within residue: .R<NME 290>
+  Added missing heavy atom: .R<NME 290>.A<C 3>
+  total atoms in file: 4671
+  Leap added 4 missing atoms according to residue templates:
+       1 Heavy
+       3 H / lone pairs
+  The file contained 4 atoms not in residue templates
+
+/home/jguven/Software/miniconda3/envs/ambertools/bin/teLeap: Warning!
+Since the number of added atoms equals the number of missing atoms, it is likely
+that some atoms had incorrect names; you may want to use addPdbAtomMap to map
+these names, or change the names in the PDB file.
+
+Checking Unit.
+
+/home/jguven/Software/miniconda3/envs/ambertools/bin/teLeap: Warning!
+The unperturbed charge of the unit (-2.000000) is not zero.
+FATAL:  Atom .R<NME 290>.A<CH3 7> does not have a type.
+FATAL:  Atom .R<NME 290>.A<HH31 8> does not have a type.
+FATAL:  Atom .R<NME 290>.A<HH32 9> does not have a type.
+FATAL:  Atom .R<NME 290>.A<HH33 10> does not have a type.
+
+/home/jguven/Software/miniconda3/envs/ambertools/bin/teLeap: Fatal Error!
+Failed to generate parameters
+
+Exiting LEaP: Errors = 1; Warnings = 2; Notes = 0.
