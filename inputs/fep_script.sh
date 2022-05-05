@@ -11,10 +11,10 @@
 
 
 # Select which GPU to run on
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=0
 
 # echo prints out the variable
-echo $CUDA_VISIBLE_DEVICES
+echo "You have selected GPU: $CUDA_VISIBLE_DEVICES"
 
 # Change directory to the Engine folder
 cd ../output/somd/
