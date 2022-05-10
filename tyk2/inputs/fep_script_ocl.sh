@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # General skeleton for running the FEP
 
 # 1. Set the lambda values
@@ -8,13 +7,14 @@
 # 3. Loop over bound and unbound folders
 # 4. Loop over lambda folders
 # 5. Do production run in each lambda folder using SOMD
-
+echo "OPENCL SOMD SCRIPT"
 
 # Select which GPU to run on
-export CUDA_VISIBLE_DEVICES=0
-
+export OPENMM_PLUGIN_DIR="/home/jguven/Software/miniconda3/envs/bss-d/lib/plugins/"
+export OPENCL_VISIBLE_DEVICES=1
+export OPENMM_DEFAULT_PLATFORM='OpenCL'
 # echo prints out the variable
-echo "You have selected GPU: $CUDA_VISIBLE_DEVICES"
+echo $OPENCL_VISIBLE_DEVICES
 
 # Change directory to the Engine folder
 cd ../output/somd/
@@ -27,7 +27,6 @@ lambda_values=( 0.0000 0.1000 0.2000 0.3000 0.4000 0.5000 0.6000 0.7000 0.8000 0
 
 # Loop over transformation folders (in this case it's just one folder)
 for transformation in 'ejm50~ejm49'; do
-
 
 # Go into transformation folder
 cd $transformation
@@ -49,7 +48,7 @@ cd lambda_$lambda
 
 echo "production run..."
 # Do SOMD production run
-somd-freenrg -c somd.rst7 -t somd.prm7 -m somd.pert -C somd.cfg -p CUDA -l $lambda 
+/home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg -c ./somd.rst7 -t ./somd.prm7 -m ./somd.pert -C ./somd.cfg -p OpenCL -l $lambda
 
 cd ..
 
@@ -60,12 +59,3 @@ done
 
 cd $current
 done
-
-
-
-
-
-
-
-
-
