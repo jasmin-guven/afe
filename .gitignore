@@ -3,3 +3,5 @@ tyk2/output/gromacs/ejm50~ejm49/bound/lambda_*
 tyk2/output/gromacs/ejm50~ejm49/unbound/lambda_*
 tyk2/output/somd/ejm50~ejm49/bound/lambda_*
 tyk2/output/somd/ejm50~ejm49/unbound/lambda_*
+kpc2/*.pdb
+kpc2/*mol2

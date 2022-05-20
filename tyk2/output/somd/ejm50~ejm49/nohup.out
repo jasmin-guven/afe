@@ -3,3 +3,1477 @@ OPENCL SOMD SCRIPT
 Transformation: ejm50~ejm49
 lambda is:  0.0000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
 production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.0
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Index GPU = 0 
+Loaded a restart file on which we have performed 0 moves.
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108671 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374026 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 29190 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.1000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.1
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Index GPU = 0 
+Loaded a restart file on which we have performed 0 moves.
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108663 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374257 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 29868 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.2000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.2
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Index GPU = 0 
+Loaded a restart file on which we have performed 0 moves.
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108657 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374182 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32663 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.3000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.3
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.3
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108651 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374304 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32577 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.4000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.4
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.4
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108645 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374173 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32650 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.5000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.5
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.5
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108639 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374203 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32688 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.6000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.6
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.6
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108633 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374146 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32692 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.7000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.7
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.7
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108631 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374192 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32782 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.8000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.8
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.8
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108652 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374212 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32578 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  0.9000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 0.9
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.9
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 108790 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374176 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 32578 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+lambda is:  1.0000 at bound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+production run...
+
+Loading configuration information from file ./somd.cfg
+
+Running a somd-freenrg calculation using files ./somd.prm7, ./somd.rst7 and ./somd.pert.
+Using parameters:
+===============
+barostat == True
+buffered coordinates frequency == 2000
+constraint == hbonds-notperturbed
+crdfile == ./somd.rst7
+cutoff distance == 10 angstrom
+cutoff type == cutoffperiodic
+energy frequency == 250
+equilibrate == False
+lambda array == (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
+lambda_val == 1.0
+minimise == True
+morphfile == ./somd.pert
+ncycles == 10
+ncycles_per_snap == 1
+nmoves == 200000
+perturbed residue number == 1
+platform == OpenCL
+pressure == 1 atm
+reaction field dielectric == 78.3
+save coordinates == True
+temperature == 300 t
+thermostat == True
+timestep == 0.002 ps
+topfile == ./somd.prm7
+===============
+### Running Single Topology Molecular Dynamics Free Energy on unknown ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 1.0
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 98463 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: 109674 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -374224 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+200000 moves 10 cycles, 4000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+Simulation took 31579 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+./fep_script_ocl.sh: line 40: cd: unbound: No such file or directory
+lambda is:  0.0000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.0000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.1000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.1000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.2000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.2000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.3000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.3000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.4000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.4000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.5000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.5000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.6000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.6000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.7000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.7000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.8000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.8000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  0.9000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_0.9000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
+lambda is:  1.0000 at unbound  for  /home/jguven/Tutorials/FEP/tyk2/output/somd/ejm50~ejm49
+./fep_script_ocl.sh: line 47: cd: lambda_1.0000: No such file or directory
+production run...
+
+Loading configuration information from file ./somd.cfg
+Starting /home/jguven/Software/miniconda3/envs/bss-d/bin/somd-freenrg: number of threads equals 20
+Traceback (most recent call last):
+  File "/home/jguven/Software/miniconda3/envs/bss-d/share/Sire/scripts/somd-freenrg.py", line 87, in <module>
+    params = readParams(args.config)
+  File "/home/jguven/Software/miniconda3/envs/bss-d/lib/python3.9/site-packages/Sire/Tools/__init__.py", line 25, in readParams
+    lines = open(filename, "r").readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './somd.cfg'
